@@ -2,11 +2,20 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Instagram APi</title>
+	<title>Instagram TBT</title>
+	<link rel="stylesheet" type="text/css" href="stylesheet/main.css">
+	<link href='http://fonts.googleapis.com/css?family=Lobster&subset=latin,latin-ext,cyrillic,cyrillic-ext' rel='stylesheet' type='text/css'>
 	<script type="text/javascript" src="js/instafeed.min.js"></script>
 </head>
 <body>
-	<h1> Throw Back Thursday </h1>
+	<nav id="header">
+		<h1 id= "short"> #TBT </h1>
+		<h1 class="info" id="modal"> ? </h1>
+	</nav>
+	<div class="infobox">
+		<p> Post an Instagram photo of a favourite memory you have and tag it with #tbt and it will appear on this interactive map. Feel free to click on the map to veiw others Throwbacks!</p>
+		<a class="close" href="#">Got It!</a>
+	</div>
 	<div id="instafeed"></div>
 
 	<script type="text/javascript">
@@ -17,6 +26,13 @@
     });
     feed.run();
 	</script>
+	<div class="footer">
+		<div class="disclaimer">
+			<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, architecto incidunt nesciunt exercitationem quia sed repellendus et fugiat delectus quos. Architecto, nam, dolorum velit id voluptates est eius eaque quae.</p>
+		</div>
+		<div class="instagram"><a href="http://instagram.com/"target="_blank"><img id="insta" src="images/instagram.png" title="Instagram.com"></a>
+		</div>
+	</div>
 </body>
 
 </html>
