@@ -112,7 +112,7 @@ a:visited {
 
 }
 .footer{
-	margin-top: 200px;
+	margin-top: -200px;
 	background-color: #666666;
 
 }
